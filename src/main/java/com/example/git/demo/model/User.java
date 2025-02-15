@@ -6,6 +6,15 @@ public class User {
     private int userId;
     private int userAge;
     private String userEmail;
+    private String pass;
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
 
     public String getUserGender() {
         return userGender;
