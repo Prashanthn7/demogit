@@ -7,6 +7,16 @@ public class User {
     private int userAge;
     private String userEmail;
 
+    public String getUserGender() {
+        return userGender;
+    }
+
+    public void setUserGender(String userGender) {
+        this.userGender = userGender;
+    }
+
+    private String userGender;
+
     public String getUsername() {
         return username;
     }
